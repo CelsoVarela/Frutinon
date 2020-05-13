@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: yellow;
+    min-height: 120px;
+}
+
+#social-media{
+    padding: 30px;
+}
