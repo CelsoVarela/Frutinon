@@ -1,14 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Acme:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Acme', sans-serif;
+}
+
+.navbar-color{
+    background-color: #1c8c3a;
+}
+
+.name {
+    color: #eec802 !important;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+}
+
+.nav-item a{
+    color: #ffffcc !important;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+.homepage_bg{
+    background: url(../images/frutinon_logo2.png) no-repeat bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    height: 90vh;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 footer{
-    background-color: yellow;
-    min-height: 120px;
+    background-color: #1c8c3a;
+    min-height: 60px;
+    color: #ffffcc !important;
+    margin: 0;
 }
 
-#social-media{
-    padding: 30px;
-}
