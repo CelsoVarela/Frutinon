@@ -3,9 +3,12 @@
 body {
     font-family: 'Acme', sans-serif;
 }
+/*--------------------Texting--------------------*/
 
-.navbar-color{
-    background-color: #1c8c3a;
+div p{
+    color: #000000;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
 }
 
 .name {
@@ -15,13 +18,29 @@ body {
 }
 
 .nav-item a{
-    color: #ffffcc !important;
+    color: #eec802 !important;
     font-size: 20px;
     font-family: 'Acme', sans-serif;
 }
 
+.nav-item a:hover {
+    color:#1c8c3a !important;
+}
+
+.juice-display{
+    display: block;
+}
+
+.juice-dsc{
+    padding: 15px;
+}
+
+/*--------------------Background, Specials--------------------*/
+
 .homepage_bg{
-    background: url(../images/frutinon_logo2.png) no-repeat bottom;
+    height: 100vh;
+
+    background: url('../images/frutinon_logo2.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -32,9 +51,59 @@ body {
     justify-content: center;
 
     position: relative;
-    height: 90vh;
-
 }
+
+.history-bg{
+    height: 100vh;
+
+    background: url('../images/fruit_twist.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.about-bg{
+    height: 100vh;
+
+    background: url('../images/fruit_twist2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(242, 242, 242, 0.5);
+}
+
+/*--------------------Heading--------------------*/
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .25);
+    border: 0;
+}
+
+/*--------------------Contact form--------------------*/
 
 .center-form {
     padding-top: 10px;
@@ -42,10 +111,50 @@ body {
     max-width: 70%;
 }
 
+/*--------------------Footer--------------------*/
+
 footer{
-    background-color: #1c8c3a;
+    background-color: rgba(255, 255, 255, .25);
     min-height: 60px;
     color: #ffffcc !important;
     margin: 0;
 }
 
+/*--------------------Social links--------------------*/
+
+.social-links {
+    padding-top: 15px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 14px 0;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 14px;
+    text-align: center;
+    color: #fafafa;
+    background: #eec802;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #1c8c3a;
+}
+
+/*--------------------Media Screens--------------------*/
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-height: 540px;
+    }
+}
