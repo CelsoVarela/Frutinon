@@ -1,16 +1,39 @@
-# FRUTINON
+<h1 align="center">Frutinon</h1>
 
-In this project you can find a landing page fully operational and responsive of a Juice company where we can search some information and contact the company using the navigation buttons
+In this project you can find a landing page of a Juice company where the users and partners can search some information using the navigation buttons and contact them submiting a form.
+The webpage is fully operational and responsive through all devices.
 
 
-### UX
+## User Experience (UX)
 
-This web page was created to the public in general and other companies that would like to create partnership with the company **FRUTINON**.
-In the web page you will find information about how the company works and their history
+- ### Users stories
 
-As a user you will have the title/brand on the header and another four icons (Home, About, History and Contact) that will allow you to navigate through the pages presented in this project.
+    - #### General public an potential partners
+        - As a visitor, I want to easily navigate through the web page and find the information that is relevant to me.
+        - As a visitor, I want to know more about the company, their history and how they operate, look for social media presence and be able to contact them.
 
-### Existing Features
+    - #### Site owner
+        - As a site owner, I want to create a online presence and allow the general public to know more about the brand.
+        - As a site owner, I want to be visible to as much potencial partners as possible
+
+
+- ### Design
+
+    - #### Colour scheme
+        - The two main colours are yellow and green, the same as the country flag what gives a identity to the company.
+    - #### Typography
+        - The Acme and Exo fonts are the two fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. I choosed those two fonts because they are less formal and as a juice company we want to have a more relaxed and close relationship with the public.
+
+## Features
+    - Responsive on all devices sizes
+
+## Technologies Used
+
+- ### Languages Used
+    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+
 
 **Frutinon/Home** - by clicking this icon you will be redirected to the home page.
 
