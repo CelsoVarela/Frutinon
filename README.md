@@ -1,4 +1,4 @@
-<h1 align="center">Frutinon</h1>
+# <h1 align="center">Frutinon</h1>
 
 In this project you can find a landing page of a Juice company where the users and partners can search some information using the navigation buttons and contact them submiting a form.
 The webpage is fully operational and responsive through all devices.
@@ -30,42 +30,71 @@ The webpage is fully operational and responsive through all devices.
 ## Technologies Used
 
 - ### Languages Used
+
     -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
     -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
+- ### Frameworks, Libraries & Programs Used
 
+    1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+    1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+    1. [Visual Studio Code:](https://code.visualstudio.com/)
+    - VS Code was use to develop the project in offline mode and prevent some bugs caused when using Gitpod.
 
-**Frutinon/Home** - by clicking this icon you will be redirected to the home page.
+## Testing
 
-**About** - by clicking this icon you will be redirected to the About page, where you will find a briefely explanation on how the company works.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**History** - by clicking this icon you will be redirected to the History page, where you will know how it started for Frutinon company.
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_upload)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_upload)
 
-**Contact** - by clicking this icon you will be redirected to the contact page where you can find a form that allows you to contact the company.
+- ### Testing User Stories from User Experience (UX) Section
 
-**Footer** - at the bottom of the page we have a footer with social media links. clicking on them will open a new page to each of the social media pages.
+    - #### General public an potential partners
+        1. Upon entering the site, users can automatically see a clean and easily readable navigation bar to go to the page of their choice.
+        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. On the Contact page, the user can contact the company after a form response is submitted
 
+    - #### Site owner
+        1. Having the web page the public will be hable to find the online page when typing the name of the brand in any browser.
+        2. On the navigation bar there are two sections, About and History with information about the views and values of the company as well as the history about how everything started.
+        3. There are social media links that redirect the user to the social media pages allowing users to follow the company pages.
 
-**Contact form:**
-I runned a test on the contact form
-If you try to submit it without feeling the spaces and I wasn't aloud. You can only submit the form after all the spaces being filled.
-You also need to give a valid e-mail, otherwise the system will show a error message.
-After you fill all the required and valid information you can submit the form and a succes message will show up.
+- ### Further Testing
 
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Mozila.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 5/6, iPhoneX, Galaxy S5 and Moto G4.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Credits
-**Contact**
-The text for the contact form was coppied from the Resume project (Rosie) from the course
+## Credits 
 
-**navbar**
-We used Bootststrap to creat our headear, navigation bar and the colapsable button
+- ### Code
+    - [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System and colapsable button.
 
-**Technologies**
-I used Bootstrap and FontAwesome along side with HTML and CSS to create this project
+    - The text for the contact form on the **Contact** section was coppied from the Resume project (Rosie) from the course.
 
-### Media
+- ### Content
 
-The photos used in this site were obtained from **Pexels** and **Pixabay**
+- All content was written by the developer.
 
-### Acknowledgements
-I received inspiration for this project from a relative wich own the company
+- The [README.md](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md) was used as a inspiration to do my own README.md file
+
+- ### Media
+
+    - The background images used in this site were obtained from **Pexels** and **Pixabay**
+
+- ### Acknowledgements
+    - My Mentor for continuous helpful feedback.
+
+    - Frutinon company for chalenging me to develop this web site
