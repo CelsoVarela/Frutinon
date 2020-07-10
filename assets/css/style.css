@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Acme:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+/*--------------------Texting--------------------*/
 body {
     font-family: 'Acme', sans-serif;
 }
-/*--------------------Texting--------------------*/
+
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
 
 div p{
     color: #000000;
     font-family: 'Exo', sans-serif;
     font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .name {
